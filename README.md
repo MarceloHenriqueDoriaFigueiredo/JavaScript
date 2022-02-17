@@ -1,2 +1,2 @@
 # JavaScript
- Meus estudos sobre JavaScript.
+ Meu aprendizado sobre JavaScript.
