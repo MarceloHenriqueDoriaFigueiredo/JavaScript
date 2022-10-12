@@ -1,3 +1,7 @@
+//Não consegue enviar ao front end uma lista ou qualquer coisa de javascript sem transformar em json
+
+//enviar para uma api ou para um servidor precisa converter para json
+
 const todos = [
     {
         id: 20,
@@ -19,6 +23,6 @@ const todos = [
 const todosJSON = JSON.stringify(todos);
 console.log(todosJSON);
 
-//Trasformando arquivo JSON para um dado JavaScript;
+//Convertendo arquivo JSON para um dado JavaScript;
 const todosList = JSON.parse(todosJSON);
 console.log(todosList);

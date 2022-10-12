@@ -17,7 +17,7 @@ function divisão(a, b = 10){
 const divresu = divisão(100);
 console.log(divresu);
 
-//Arrow Function
+//Arrow Functions
 const multarrow = (a, b, c) => a * b * c; 
 const multresutado = multarrow(5, 5, 5);
 console.log(multresutado);

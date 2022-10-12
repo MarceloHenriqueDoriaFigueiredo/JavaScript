@@ -41,12 +41,12 @@ console.log(numero / 10);
 
 //Tostring;
 const numero1 = 50;
-console.log(numero1.toString())
+console.log(numero1.toString());
 
 //Typeof
 const numero2 = 50;
 console.log(typeof numero2)
-console.log(typeof numero1.toString())
+console.log(typeof numero1.toString());
 
 //Boleanos
 console.log(2 == 2);

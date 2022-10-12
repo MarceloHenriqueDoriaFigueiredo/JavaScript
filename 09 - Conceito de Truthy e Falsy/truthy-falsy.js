@@ -24,8 +24,12 @@ console.log(!!{});
 //Checando se a lista tem algo dentro dela;
 if (lista.length > 0){
     console.log(lista);
-}
+};
 
-//Invertendo booleano para true
+//Invertendo a lista de true para false
 const d = [];
-console.log(!false);
+console.log(!d);
+
+//Invertendo o null de false para true
+const m = null;
+console.log(!m);

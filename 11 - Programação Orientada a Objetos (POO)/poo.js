@@ -1,16 +1,19 @@
+//classe com as propriedades
+
 class Person {
     constructor(nome, sobrenome, idade){
         this.nome = nome;
         this.sobrenome = sobrenome;
         this.idade = idade;
-    }
+    };
+    //metodos pra classe
     getFullName(){
         console.log(`${this.nome} ${this.sobrenome}`);
-    }
+    };
     static speaak() {
         console.log("Olá, mundo");
-    }
-}
+    };
+};
 
 //Instaciando Person
 const person = new Person("Marcelo", "Figueiredo", 24);
@@ -23,19 +26,19 @@ Person.speaak();
 class animal {
     constructor(name){
         this.name = name;
-    }
+    };
     speaak(){
         console.log(`${this.name} e um animal que faz muito barulho`);
-    }
-    }
+    };
+    };
     class Dog extends animal {
         constructor(name){
             super(name);
-        }
+        };
         speaak(){
             console.log(`Dog ${this.name} Late!`)
-        }
-    }
+        };
+    };
 const Animal = new animal("Stark");
 const dog = new Dog("Bob");
 Animal.speaak();
