@@ -8,5 +8,5 @@ const media = (nota_1 + nota_2 + nota_3 + nota_4)/4;
 if (media >= 6){
     console.log("O aluno esta aprovado");
 } else{
-    console.log("O aluno não aprovado");
+    console.log("O aluno não foi aprovado");
 };
