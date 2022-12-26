@@ -1,24 +1,3 @@
-//Map: trasnformar um array em um totalmente novo
-const numeros = [1, 2, 3, 4, 5];
-const nummulti = numeros.map(function(num){
-    return num * 2;
-});
-console.log(nummulti);
-
-// Segundo exemplo
-let pessoa = [
-    { nome: 'Marcelo', idade: 24 },
-    { nome: 'Sara', idade: 24 },
-    { nome: 'Carlos', idade: 21 }
-];
-
-let nomeDasPessoas = pessoa.map(function(nome){
-    return nome.nome
-});
-
-console.log(nomeDasPessoas);
-
-
 //Filter: filtrar os elementos
 // const idade = [10, 24, 67, 3, 6, 7, 9, 11, 19, 27];
 // const evenidades = idade.filter(function(idade){
