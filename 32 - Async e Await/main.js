@@ -36,19 +36,29 @@ let lavarXicara = (cafeTomado) =>{
 let chaleiraEstaNoFogao = true;
 let fogaoEstaLigado = true;
 
-ferverAgua(chaleiraEstaNoFogao, fogaoEstaLigado)
-    .then(() =>{
-        return passarOCafe();
-    })
+// ferverAgua(chaleiraEstaNoFogao, fogaoEstaLigado)
+//     .then(() =>{
+//         return passarOCafe();
+//     })
 
-    .then(() =>{
-        return tomarCafe();
-    })
+//     .then(() =>{
+//         return tomarCafe();
+//     })
 
-    .then(() =>{
-        return lavarXicara();
-    })
+//     .then(() =>{
+//         return lavarXicara();
+//     })
 
-    .then(() =>{
-        console.log('Finalizado ritual do café, bora trabalhar!')
-    })
+//     .then(() =>{
+//         console.log('Finalizado ritual do café, bora trabalhar!')
+//     })
+
+async function iniciarProcessoDeFazerCafe(){
+    const aguaFervida = await ferverAgua(chaleiraEstaNoFogao,fogaoEstaLigado);
+    const cafePassado = await passarOCafe(aguaFervida);
+    const cafeTomado = await tomarCafe(cafePassado);
+    const xicaraLavada  = await lavarXicara(cafeTomado);
+
+    if (xicaraLavada) console.log('Finalizado o ritual de tomar café, bora trabalhar!')
+};
+iniciarProcessoDeFazerCafe();
