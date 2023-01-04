@@ -1,4 +1,4 @@
-//O JSON e um arquivo que contem uma serie de dados estruturados em forma de texto, e usado para trafegar dados entre informações
+//O JSON e um arquivo que contem uma serie de dados estruturados em forma de texto. E usado para trafegar dados entre aplicações.
 
 const todos = [
     {
