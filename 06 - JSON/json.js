@@ -1,6 +1,4 @@
-//Não consegue enviar ao front end uma lista ou qualquer coisa de javascript sem transformar em json
-
-//enviar para uma api ou para um servidor precisa converter para json
+//O JSON e um arquivo que contem uma serie de dados estruturados em forma de texto, e usado para trafegar dados entre informações
 
 const todos = [
     {
